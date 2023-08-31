@@ -15841,21 +15841,72 @@ a.anchor-link {
 <li>集計方法（Pandasのresamleを利用）<div class="highlight"><pre><span></span><span class="n">データフレーム名</span><span class="p">[</span><span class="s2">&quot;列名&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">resample</span><span class="p">(</span><span class="s2">&quot;集計単位&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">([</span><span class="s2">&quot;処理1&quot;</span><span class="p">,</span> <span class="s2">&quot;処理2&quot;</span><span class="p">,</span> <span class="err">・・・</span><span class="p">])</span>
 </pre></div>
 </li>
-<li>集計単位
-||||
-|:-:|:-:|:-:|
-|指定方法 |内容 |区切り位置 |
-|AS       |年   |年初       |
-|A        |年   |年末       |
-|MS       |月   |月初       |
-|M        |月   |月末       |
-|W        |週   |日曜日     |
-|D        |日   |0時        |
-|H        |時   |0分        |
-|T        |分   |0秒        |
-|S        |秒   |           |
-||||</li>
+<li>集計単位</li>
 </ul>
+<table>
+<thead><tr>
+<th style="text-align:center"></th>
+<th style="text-align:center"></th>
+<th style="text-align:center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">指定方法</td>
+<td style="text-align:center">内容</td>
+<td style="text-align:center">区切り位置</td>
+</tr>
+<tr>
+<td style="text-align:center">AS</td>
+<td style="text-align:center">年</td>
+<td style="text-align:center">年初</td>
+</tr>
+<tr>
+<td style="text-align:center">A</td>
+<td style="text-align:center">年</td>
+<td style="text-align:center">年末</td>
+</tr>
+<tr>
+<td style="text-align:center">MS</td>
+<td style="text-align:center">月</td>
+<td style="text-align:center">月初</td>
+</tr>
+<tr>
+<td style="text-align:center">M</td>
+<td style="text-align:center">月</td>
+<td style="text-align:center">月末</td>
+</tr>
+<tr>
+<td style="text-align:center">W</td>
+<td style="text-align:center">週</td>
+<td style="text-align:center">日曜日</td>
+</tr>
+<tr>
+<td style="text-align:center">D</td>
+<td style="text-align:center">日</td>
+<td style="text-align:center">0時</td>
+</tr>
+<tr>
+<td style="text-align:center">H</td>
+<td style="text-align:center">時</td>
+<td style="text-align:center">0分</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">分</td>
+<td style="text-align:center">0秒</td>
+</tr>
+<tr>
+<td style="text-align:center">S</td>
+<td style="text-align:center">秒</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
 <table>
 <thead><tr>
 <th style="text-align:center"></th>
@@ -16706,7 +16757,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>(2)<code>df_sma_stock</code>対して<code>sam_graph関数</code>を利用し、移動平均グラフを作成しよう</p>
+<p>(2)<code>df_sma_stock</code>対して<code>sma_graph関数</code>を利用し、移動平均グラフを作成しよう</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
